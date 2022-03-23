@@ -9,7 +9,6 @@ const project = {
 // randomProperty أنشئ دالة
 (function randomProperty() {
   let num = Math.floor(Math.random() * 4);
-  console.log(num);
   if (num == 1) {
     console.log(project.type);
   } else if (num == 2) {
